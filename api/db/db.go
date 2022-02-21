@@ -8,7 +8,7 @@ import (
 )
 
 func Conn() (*sql.DB, error) {
-	db, erro := sql.Open("postgres", "host=172.18.0.3 port=5432 user=postgres password=p3ttinar1 database=BaseDeConhecimento sslmode=disable")
+	db, erro := sql.Open("postgres", "host=172.18.0.3 port=5432 user=postgres password=xxxxxxxxx database=BaseDeConhecimento sslmode=disable")
 	if erro != nil {
 		return nil, erro
 	}
